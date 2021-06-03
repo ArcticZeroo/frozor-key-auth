@@ -1,0 +1,27 @@
+{
+  "name": "@arcticzeroo/frozor-auth-api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/koa": "^2.13.1",
+    "@types/koa__router": "^8.0.4",
+    "@types/koa-json": "^2.0.18",
+    "@types/node": "^15.0.2",
+    "typescript": "^4.2.4"
+  },
+  "dependencies": {
+    "@arcticzeroo/frozor-auth-common": "^1.0.0",
+    "@koa/router": "^10.0.0",
+    "@prisma/client": "^2.22.1",
+    "koa": "^2.13.1",
+    "koa-json": "^2.0.2",
+    "nanoid": "^3.1.22",
+    "prisma": "^2.22.1"
+  }
+}
